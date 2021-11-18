@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3038fa49926c17a4a8cf9e8a4f3385b0, type: 3}
+  m_Name: Wave prC
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 3454729240945334314, guid: 6acdab55594d1e34aab7dc81b98970cf, type: 3}
+  pathPrefab: {fileID: 2590264840629163007, guid: d16ab0e46f93d514fa9ea3d798e995a1, type: 3}
+  timeBetweenSpawn: 1
+  spawnRandomFactor: 0.3
+  numberOfEnemies: 5
+  moveSpeed: 8
+  timeTillNextWave: 4
